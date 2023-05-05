@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+}
+
+.modalBackground {
+    width: 40vw;
+    height: 40vh;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    right: 10%;
+
+}
+
+.closeModal {
+    background-color: transparent;
+    border: none;
+    font-size: 25px;
+    cursor: pointer;
+    position: absolute;
+    right: 4%;
+}
+
+.modalContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 12px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    position: absolute;
+    top: 2%;
+    left: 30%;
+}
+
+.modalContainer .title {
+    display: inline-block;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.titleCloseBtn {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.modalContainer .body {
+    flex: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    text-align: center;
+}
+
+.modalContainer .footer {
+    flex: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContainer .footer button {
+    width: 150px;
+    height: 45px;
+    margin: 10px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 8px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+#cancelBtn {
+    background-color: crimson;
+}
+
+.otpInput {
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    border: 1px solid black;
+    font-size: 30px;
+    width: 51px;
+    height: 70px;
+    margin: 10px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.submitBtn {
+    font-family: "Lato", sans-serif;
+    min-width: 400px;
+    display: inline-block;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    user-select: none;
+    cursor: pointer;
+    border: 1px solid transparent;
+    margin: 0px 0px 20px 0px;
+    padding: 0.775rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.7;
+    margin-top: 30px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #9861c2;
+    border-color: #9861c2;
+}
